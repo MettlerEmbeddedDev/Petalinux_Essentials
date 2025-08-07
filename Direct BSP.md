@@ -6,5 +6,6 @@
 4. Petalinux-config
 5. Petalinux-build
 6. cd ./image/linux
-7. petalinux-package --wic --images-dir images/linux/ --bootfiles "ramdisk.cpio.gz.u-boot,boot.scr,Image,system.dtb,system-zynqmp-sck-kr-g-revB.dtb" --disk-name "sda"
-8. Write the image into an SD card through Balena Etcher or similar tool
+7. petalinux-package --boot --u-boot --force
+8. petalinux-package --wic --images-dir images/linux/ --bootfiles "ramdisk.cpio.gz.u-boot,boot.scr,Image,system.dtb,system-zynqmp-sck-kr-g-revB.dtb" --disk-name "sda"
+9. Write the image into an SD card through Balena Etcher or similar tool

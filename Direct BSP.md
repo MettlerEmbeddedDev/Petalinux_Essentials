@@ -1,6 +1,6 @@
 ###  Building image directly from the BSP: 
 
-1. Download the related Petalinux Board Support Package (Use the same version BSP as the tool) [Link](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html)
+1. Download the related Petalinux Board Support Package (Use the same version BSP as the tool) ([Link](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html))
 2. Petalinux-create -t project -s <path_to_bsp_file>.bsp -n <project_name>
 3. cd to the Petalinux project directory
 4. Petalinux-config
